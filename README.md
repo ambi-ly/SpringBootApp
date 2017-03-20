@@ -1,12 +1,15 @@
 # SpringBootApp
-Simple Spring boot web app using Hibernate + H2 + Spring Security
+<h1>Simple Spring boot web app using Hibernate + H2 + Spring Security</h1>
+
+<ul>
+  <li>H2 Database Engine</li>
+  <li>Hibernate</li>
+  <li>Spring Boot</li>
+  <li>Spring Security</li>
+</ul>
 
 
-*H2 Database Engine
-*Hibernate
-*Spring Boot
-*Spring Security
+<p>For authentication used UserDetailsService and in-memory database. The login credentials are taken from in-memory database.</p>
 
-For authentication used UserDetailsService and in-memory database. The login credentials are taken from in-memory database.
-To create runnable war: mvn package
-To run war: import war file, run Tomcat server, goto http://localhost:8080/SpringBoot-1.0.0/
+<p>To create runnable war: mvn package</p>
+<p>To run war: import war file, run Tomcat server, goto http://localhost:8080/SpringBoot-1.0.0/</p>
